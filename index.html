@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Давид №20 — Мультивселенная в опасности</title>
+  <meta name="description" content="Юбилейный выпуск. Собери шесть Камней Бесконечности и верни свой подарок.">
+  <meta name="theme-color" content="#140b33">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Rubik+Mono+One&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+
+  <header class="topbar" id="topbar" hidden>
+    <div class="rank">
+      <span class="rank-name" id="rankName"></span>
+      <span class="xp" aria-hidden="true"><i id="xpFill"></i></span>
+    </div>
+    <div class="mini-stones" id="miniStones" aria-label="Собранные камни"></div>
+  </header>
+
+  <button class="mute" id="mute" type="button" aria-label="Выключить звук"></button>
+
+  <main id="app"></main>
+
+  <div class="wipe" id="wipe" aria-hidden="true"><span id="wipeText">Тем временем…</span></div>
+  <div class="fx-layer" id="fx" aria-hidden="true"></div>
+
+  <script src="config.js?v=2"></script>
+  <script src="js/sfx.js?v=2"></script>
+  <script src="js/art.js?v=2"></script>
+  <script src="js/games.js?v=2"></script>
+  <script src="js/app.js?v=2"></script>
+</body>
+</html>
