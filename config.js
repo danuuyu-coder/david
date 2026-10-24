@@ -3,10 +3,8 @@ window.GIFT_CONFIG = {
   from: 'Данил',
   fromGenitive: 'Данила', // для фраз «от Данила» и «своего друга Данила»
 
-  // Код с карты PS Store. Можно вписать как есть: 'ABCD-EFGH-IJKL'.
-  // Чтобы Давид не подсмотрел код в исходниках, закодируй его: открой консоль браузера (F12),
-  // выполни btoa('ABCD-EFGH-IJKL') и впиши результат с префиксом 'b64:', например 'b64:QUJDRC1FRkdILUlKS0w='.
-  code: 'НАЖМИ СКОПИРОВАТЬ',
+
+  code: 'https://pastebin.com/Ur6RiKMK',
 
   amount: '2000',
   currency: 'TRY',
