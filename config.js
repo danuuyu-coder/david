@@ -6,7 +6,7 @@ window.GIFT_CONFIG = {
   // Код с карты PS Store. Можно вписать как есть: 'ABCD-EFGH-IJKL'.
   // Чтобы Давид не подсмотрел код в исходниках, закодируй его: открой консоль браузера (F12),
   // выполни btoa('ABCD-EFGH-IJKL') и впиши результат с префиксом 'b64:', например 'b64:QUJDRC1FRkdILUlKS0w='.
-  code: 'XXXX-XXXX-XXXX',
+  code: 'НАЖМИ СКОПИРОВАТЬ',
 
   amount: '2000',
   currency: 'TRY',
